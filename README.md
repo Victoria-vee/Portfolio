@@ -13,8 +13,10 @@ Welcome to my personal developer portfolio — a showcase of my work, skills, an
 ## 📁 Sections
 
 - **Home** – Introduction and tagline  
-- **About Me** – A short story and tech stack  
-- **Projects** – A selection of my favorite frontend projects  
+- **About** – A short story about me
+- **Tech Stack**- A display of technologies I use
+- **Certification**- A list of qualifications I have
+- **Works** – A selection of my favorite frontend projects  
 - **Contact** – Ways to reach me (GitHub, Email, LinkedIn)  
 - **Footer** – Site credits
 
@@ -33,8 +35,8 @@ Welcome to my personal developer portfolio — a showcase of my work, skills, an
 ## 📬 Contact
 
 - Email: vickyessien1@gmail.com
-- GitHub: [@yourgithub](https://github.com/Victoria-vee)  
+- GitHub: (https://github.com/Victoria-vee)  
 
 ---
 
-> “From layout to interactivity, I design with intention and code with clarity.”
+> “ A successful website does three things:It attracts the right kinds of visitors. Guides them to the main services or products you offer. Collect contact details for future ongoing relation.”
