@@ -511,6 +511,7 @@ textarea {
   font-size: var(--fs-body);
   font-family: var(--font-body);
   box-shadow: var(--shadow);
+  resize:none;
 }
 input:focus,
 textarea:focus {
