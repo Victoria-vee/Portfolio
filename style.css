@@ -76,6 +76,12 @@ header a {
   display: flex;
   gap: 5px;
 }
+.hamburger {
+  display: none;
+  font-size: var(--fs-h3);
+  padding: 20px;
+  cursor: pointer;
+}
 
 header a:hover {
   background-color: var(--button);
@@ -125,6 +131,8 @@ h2 {
   background-color: var(--muted);
   margin-right: 30px;
   border-radius: 15px;
+  width:100%;
+  max-width:280px;
 }
 
 .waves {
@@ -197,6 +205,41 @@ h2 {
 }
 .about p {
   font-size: var(--fs-body);
+}
+
+.cvresume {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding:20px 0;
+  width:100%;
+
+}
+.cvresume a{
+  padding: 12px 24px;
+  background-color: var(--button);
+  border: 1px var(--border) solid;
+  text-decoration: none;
+  color: var(--text);
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  transition: var(--transition-normal);
+  width: fit-content;
+  font-family: var(--font-accent);
+}
+
+.cvresume a:hover {
+  background-color: var(--muted);
+  border: 1px var(--button) solid;
+  box-shadow: var(--shadow);
+  transform: scale(1.1);
+  transition: var(--transition-normal);
+  cursor: pointer;
+  box-shadow: var(--shadow);
 }
 
 .carousel-container {
@@ -441,7 +484,7 @@ img {
 .contact {
   padding: 50px 30px;
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   /* justify-content: space-between; */
   align-items: start;
   gap: 50px;
