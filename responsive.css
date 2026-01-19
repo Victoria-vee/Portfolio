@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+/* :root {
+  --bg: #FFF7F3;
+  --surface: #FFFFFF;
+  --primary: #7C3AED;
+  --accent: #F472B6;
+  --text-main: #1F2937;
+  --text-muted: #6B7280;
+} */
+:root {
+  --font-heading: "Playfair Display", serif;
+  --font-logo: "Tangerine", cursive;
+  --font-body:
+    "Inter", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-accent: "Space Grotesk", system-ui, sans-serif;
+
+  --fs-mobileh1: 2.2rem;
+  --fs-mobileh2: 1.6rem;
+  --fs-mobileh3: 1.4rem;
+  --fs-mobilebody: 0.8rem;
+  --fs-small: 0.875rem;
+  --bg: #f6f5f2;
+  --text: #1e1e24;
+  --card: #ffffff;
+  --border: #b5b5bd;
+  --button: #c58b8b;
+  --muted: #9a9abf;
+  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.35s ease;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: var(--fs-mobilebody);
+    }
+
+.logo p {
+    font-size: var(--fs-mobileh1);
+  }
+  .hamburger {
+    display: block;
+  }
+
+  .links {
+display: none;;
+  }
+
+  .links.active {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--bg);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    padding: 8px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+  .container {
+    margin: 0 20px;
+    display: block;
+  }
+  h1{
+    font-size: var(--fs-mobileh1);
+  }
+    h2{
+        font-size: var(--fs-mobileh2);
+    }
+    h3{
+        font-size: var(--fs-mobileh3);
+    }
+    blockquote,p{
+        font-size: var(--fs-body);
+    }
+.about,.skills,.certificates,.works,.contact{
+    margin: 40px 0;
+    padding: 20px;
+  }
+.contact{
+    display:block;
+    gap:20px;
+    padding:0;
+}
+.socialmedia{
+    margin:40px 0;
+    padding:20px;
+    margin:0 10px;
+}
+.sociallinks{
+    justify-content: space-evenly;
+}
+    .credits p{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width: 1024px) {
+   h1{
+    font-size: 2.8rem;
+}
+h2{
+    font-size: 2.2rem; 
+}
+h3{
+    font-size: 1.8rem;
+}
+  .container {
+    margin: 0 40px;
+    display: block;
+  }
+
+    .profile{
+        margin:0 auto;
+    }
+.about,.skills,.certificates,.works,.contact{
+    margin: 40px 0;
+    padding: 20px;
+  }
+.contact{
+    display:block;
+    gap:20px;
+    /* padding:0; */
+}
+.socialmedia{
+    margin:40px 0;
+    padding:20px;
+    /* margin:0 10px; */
+}
+.socialmedia p{
+    text-align: center;
+}
+.sociallinks{
+    justify-content: space-evenly;
+}
+}
